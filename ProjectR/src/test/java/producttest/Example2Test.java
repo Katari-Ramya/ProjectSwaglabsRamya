@@ -32,6 +32,9 @@ public class Example2Test extends BaseConfig {
 		test.log(Status.INFO, "Step2: Navigating To the Application via URL Successful");
 
 		test.log(Status.PASS, "Step3: Verified the WebPage Successful");
+		
+		//test.log(Status.SKIP, "Step5: Element is Hidden");
+
 
 		Reporter.log("Ramya", true);
 		Reporter.log(FirstName, true);

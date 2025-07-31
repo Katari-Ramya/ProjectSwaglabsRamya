@@ -8,11 +8,11 @@
           <include name="ReportSetup"/>
           <include name="broserTerminate"/>
           <include name="LogIn"/>
-          <include name="VerifyPrd_3"/>
           <include name="browserSetup"/>
           <include name="ReportTerminate"/>
-          <include name="VerifyPrd_2"/>
           <include name="orderProducts"/>
+          <include name="orderProducts_1"/>
+          <include name="orderProducts_2"/>
           <include name="Logout"/>
         </methods>
       </class> <!-- producttest.Example2Test -->

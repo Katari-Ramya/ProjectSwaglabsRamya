@@ -35,19 +35,19 @@
       <![CDATA[Logout is done]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-07-31T11:04:20 IST" name="RegressionSuite" finished-at="2025-07-31T11:04:33 IST" duration-ms="12643">
+  <suite started-at="2025-08-01T05:18:07 IST" name="RegressionSuite" finished-at="2025-08-01T05:18:17 IST" duration-ms="9464">
     <groups>
       <group name="RT">
         <method signature="Example2Test.orderProducts(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:producttest.Example2Test@233795b6]" name="orderProducts" class="producttest.Example2Test"/>
       </group> <!-- RT -->
     </groups>
-    <test started-at="2025-07-31T11:04:20 IST" name="Test" finished-at="2025-07-31T11:04:33 IST" duration-ms="12643">
+    <test started-at="2025-08-01T05:18:07 IST" name="Test" finished-at="2025-08-01T05:18:17 IST" duration-ms="9464">
       <class name="producttest.Example2Test">
-        <test-method is-config="true" signature="ReportSetup()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:20 IST" name="ReportSetup" finished-at="2025-07-31T11:04:21 IST" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="ReportSetup()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:07 IST" name="ReportSetup" finished-at="2025-08-01T05:18:08 IST" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportSetup -->
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:21 IST" name="browserSetup" finished-at="2025-07-31T11:04:26 IST" duration-ms="5456" status="PASS">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:08 IST" name="browserSetup" finished-at="2025-08-01T05:18:11 IST" duration-ms="3479" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,50 +61,50 @@
             </line>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="LogIn()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:26 IST" name="LogIn" finished-at="2025-07-31T11:04:27 IST" duration-ms="450" status="PASS">
+        <test-method is-config="true" signature="LogIn()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:11 IST" name="LogIn" finished-at="2025-08-01T05:18:12 IST" duration-ms="376" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- LogIn -->
-        <test-method signature="orderProducts_1()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:27 IST" name="orderProducts_1" finished-at="2025-07-31T11:04:27 IST" duration-ms="18" status="PASS">
+        <test-method signature="orderProducts_1()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:12 IST" name="orderProducts_1" finished-at="2025-08-01T05:18:12 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderProducts_1 -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:27 IST" name="Logout" finished-at="2025-07-31T11:04:27 IST" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="Logout()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:12 IST" name="Logout" finished-at="2025-08-01T05:18:12 IST" duration-ms="316" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout is done]]>
             </line>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="LogIn()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:27 IST" name="LogIn" finished-at="2025-07-31T11:04:27 IST" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="LogIn()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:12 IST" name="LogIn" finished-at="2025-08-01T05:18:12 IST" duration-ms="259" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- LogIn -->
-        <test-method signature="orderProducts_2()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:27 IST" name="orderProducts_2" finished-at="2025-07-31T11:04:27 IST" duration-ms="1" status="PASS">
+        <test-method signature="orderProducts_2()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:12 IST" name="orderProducts_2" finished-at="2025-08-01T05:18:12 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderProducts_2 -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:27 IST" name="Logout" finished-at="2025-07-31T11:04:27 IST" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="Logout()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:12 IST" name="Logout" finished-at="2025-08-01T05:18:12 IST" duration-ms="260" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout is done]]>
             </line>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="LogIn()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:29 IST" name="LogIn" finished-at="2025-07-31T11:04:29 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="LogIn()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:13 IST" name="LogIn" finished-at="2025-08-01T05:18:14 IST" duration-ms="248" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- LogIn -->
-        <test-method signature="orderProducts(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:29 IST" name="orderProducts" data-provider="CheckoutInfo" finished-at="2025-07-31T11:04:32 IST" duration-ms="2361" status="PASS">
+        <test-method signature="orderProducts(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:14 IST" name="orderProducts" data-provider="CheckoutInfo" finished-at="2025-08-01T05:18:16 IST" duration-ms="2080" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,18 +137,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- orderProducts -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:32 IST" name="Logout" finished-at="2025-07-31T11:04:32 IST" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="Logout()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:16 IST" name="Logout" finished-at="2025-08-01T05:18:16 IST" duration-ms="282" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout is done]]>
             </line>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="broserTerminate()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:32 IST" name="broserTerminate" finished-at="2025-07-31T11:04:32 IST" duration-ms="369" status="PASS">
+        <test-method is-config="true" signature="broserTerminate()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:16 IST" name="broserTerminate" finished-at="2025-08-01T05:18:16 IST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- broserTerminate -->
-        <test-method is-config="true" signature="ReportTerminate()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-07-31T11:04:32 IST" name="ReportTerminate" finished-at="2025-07-31T11:04:33 IST" duration-ms="645" status="PASS">
+        <test-method is-config="true" signature="ReportTerminate()[pri:0, instance:producttest.Example2Test@233795b6]" started-at="2025-08-01T05:18:16 IST" name="ReportTerminate" finished-at="2025-08-01T05:18:17 IST" duration-ms="625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportTerminate -->
