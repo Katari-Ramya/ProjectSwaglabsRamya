@@ -7,6 +7,9 @@ import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+
 import genericlibrary.BaseConfig;
 import pagerepository.CartPage;
 import pagerepository.CheckoutOverviewPage;
@@ -16,20 +19,30 @@ import pagerepository.HomePage;
 @Listeners(listenerlibrary.ListenersImplementation.class)
 
 public class Example2Test extends BaseConfig {
-	
-	
-	@Test(groups="RT",priority = 1, invocationCount = 1,enabled = true,dataProvider ="CheckoutInfo" )
-	public void orderProducts(String FirstName,String LastName,String ZipCode) {
-		
-		Reporter.log(FirstName);
-		Reporter.log(LastName);
-		Reporter.log(ZipCode);
+
+	@Test(groups = "RT", priority = 1, invocationCount = 1, enabled = true, dataProvider = "CheckoutInfo")
+	public void orderProducts(String FirstName, String LastName, String ZipCode) {
+
+		// Create the Test Information
+		test = report.createTest("Regresstiontest");
+
+		// Steps Information
+		test.log(Status.INFO, "Step1: Launching The Browser Successful");
+
+		test.log(Status.INFO, "Step2: Navigating To the Application via URL Successful");
+
+		test.log(Status.PASS, "Step3: Verified the WebPage Successful");
+
+		Reporter.log("Ramya", true);
+		Reporter.log(FirstName, true);
+		Reporter.log(LastName, true);
+		Reporter.log(ZipCode, true);
 
 		// Wait statement
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
 		// Verify Home Page
-		Assert.assertEquals(driver.getTitle(),"Swag Labs");
+		Assert.assertEquals(driver.getTitle(), "Swag Labs");
 
 		// Create an object for Home page
 		HomePage hpobj = new HomePage(driver);
@@ -40,6 +53,16 @@ public class Example2Test extends BaseConfig {
 		hpobj.getfourthproduct().click();
 		// Verify Add To Cart button is Displayed & is Enabled
 		Assert.assertTrue(hpobj.getaddtocartbtn4().isDisplayed() && hpobj.getaddtocartbtn4().isEnabled());
+
+		if (hpobj.getfourthproduct().isDisplayed()) {
+
+			test.log(Status.PASS, "Step4: Verified the WebElement Displayed");
+
+		} else {
+
+			test.log(Status.FAIL, "Step4: Verified the WebElement is Not Displayed");
+
+		}
 		// Click on Add To Cart button
 		hpobj.getaddtocartbtn4().click();
 		// Verify Back To Products link is Displayed & is Enabled
@@ -103,9 +126,8 @@ public class Example2Test extends BaseConfig {
 		Assert.assertTrue(chkobj.getzipcode().isDisplayed() && chkobj.getzipcode().isEnabled());
 		// Enter Zipcode
 		chkobj.getzipcode().sendKeys(ZipCode);
-		//chkobj.getzipcode().sendKeys(String.valueOf(ZipCode));
+		// chkobj.getzipcode().sendKeys(String.valueOf(ZipCode));
 
-		
 		// Verify Continue button is Displayed &is Enabled
 		Assert.assertTrue(chkobj.getcontinuebtn().isDisplayed() && chkobj.getcontinuebtn().isEnabled());
 		// Click on Continue button
@@ -121,9 +143,31 @@ public class Example2Test extends BaseConfig {
 
 		// Click on Finish button
 		ckovobj.getfinishbtn().click();
-		
-		//Assert.fail();
+
+		// Assert.fail();
 
 	}
+
+	@Test public void orderProducts_1() {
+	  
+	  // Create the Test Information
+		  test = report.createTest("Regresstiontest");
+	  
+	  // Steps Information
+		  test.log(Status.INFO,"Step1: Launching The Browser Successful");
+	  
+	  
+	  }
+
+	@Test public void orderProducts_2() {
+	  
+	  // Create the Test Information
+		  test = report.createTest("Regresstiontest");
+	  
+	  // Steps Information 
+		  test.log(Status.INFO,"Step1: Launching The Browser Successful");
+	  
+	  
+	  }
 
 }
